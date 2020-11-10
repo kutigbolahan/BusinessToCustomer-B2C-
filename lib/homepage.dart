@@ -14,7 +14,14 @@ class HomePage extends StatelessWidget {
             children: [
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: [Text('MENU'), Text('ADD NEW')],
+                children: [
+                  Text('MENU',
+                      style: GoogleFonts.montserrat(
+                          fontSize: 10, fontWeight: FontWeight.w400)),
+                  Text('ADD NEW',
+                      style: GoogleFonts.montserrat(
+                          fontSize: 10, fontWeight: FontWeight.w400))
+                ],
               ),
               SizedBox(
                 height: 20,
@@ -24,15 +31,130 @@ class HomePage extends StatelessWidget {
                 children: [
                   Text('Staff',
                       style: GoogleFonts.montserrat(
-                          fontSize: 20, fontWeight: FontWeight.bold)),
-                  Icon(Icons.search)
+                          fontSize: 20, fontWeight: FontWeight.w500)),
+                  Icon(
+                    Icons.search,
+                    size: 17,
+                  )
                 ],
               ),
               SizedBox(
                 height: 20,
               ),
-              Text('Manager'),
-              ListTile()
+              Text('MANAGER',
+                  style: GoogleFonts.montserrat(
+                    fontSize: 12,
+                    fontWeight: FontWeight.w300,
+                    color: Colors.grey,
+                  )),
+              ListTile(
+                title: Text('Naomi Gilbert(You)',
+                    style: GoogleFonts.montserrat(
+                        fontSize: 15,
+                        fontWeight: FontWeight.w400,
+                        color: Colors.black)),
+                subtitle: Text('naomi@gilbertadventures.com',
+                    style: GoogleFonts.montserrat(
+                        fontSize: 13,
+                        fontWeight: FontWeight.w300,
+                        color: Colors.grey[700])),
+                trailing: Icon(
+                  Icons.arrow_forward,
+                  size: 17,
+                  color: Colors.grey,
+                ),
+              ),
+              Text('SALES REP',
+                  style: GoogleFonts.montserrat(
+                    fontSize: 12,
+                    fontWeight: FontWeight.w300,
+                    color: Colors.grey,
+                  )),
+              ListTile(
+                title: Text('Naomi Gilbert(You)',
+                    style: GoogleFonts.montserrat(
+                        fontSize: 15,
+                        fontWeight: FontWeight.w400,
+                        color: Colors.black)),
+                subtitle: Text('naomi@gilbertadventures.com',
+                    style: GoogleFonts.montserrat(
+                        fontSize: 13,
+                        fontWeight: FontWeight.w300,
+                        color: Colors.grey[700])),
+                trailing: Icon(
+                  Icons.arrow_forward,
+                  size: 17,
+                  color: Colors.grey,
+                ),
+              ),
+              ListTile(
+                title: Text('Naomi Gilbert(You)',
+                    style: GoogleFonts.montserrat(
+                        fontSize: 15,
+                        fontWeight: FontWeight.w400,
+                        color: Colors.black)),
+                subtitle: Text('naomi@gilbertadventures.com',
+                    style: GoogleFonts.montserrat(
+                        fontSize: 13,
+                        fontWeight: FontWeight.w300,
+                        color: Colors.grey[700])),
+                trailing: Icon(
+                  Icons.arrow_forward,
+                  size: 17,
+                  color: Colors.grey,
+                ),
+              ),
+              ListTile(
+                title: Text('Naomi Gilbert(You)',
+                    style: GoogleFonts.montserrat(
+                        fontSize: 15,
+                        fontWeight: FontWeight.w400,
+                        color: Colors.black)),
+                subtitle: Text('naomi@gilbertadventures.com',
+                    style: GoogleFonts.montserrat(
+                        fontSize: 13,
+                        fontWeight: FontWeight.w300,
+                        color: Colors.grey[700])),
+                trailing: Icon(
+                  Icons.arrow_forward,
+                  size: 17,
+                  color: Colors.grey,
+                ),
+              ),
+              ListTile(
+                title: Text('Naomi Gilbert(You)',
+                    style: GoogleFonts.montserrat(
+                        fontSize: 15,
+                        fontWeight: FontWeight.w400,
+                        color: Colors.black)),
+                subtitle: Text('naomi@gilbertadventures.com',
+                    style: GoogleFonts.montserrat(
+                        fontSize: 13,
+                        fontWeight: FontWeight.w300,
+                        color: Colors.grey[700])),
+                trailing: Icon(
+                  Icons.arrow_forward,
+                  size: 17,
+                  color: Colors.grey,
+                ),
+              ),
+              ListTile(
+                title: Text('Naomi Gilbert(You)',
+                    style: GoogleFonts.montserrat(
+                        fontSize: 15,
+                        fontWeight: FontWeight.w400,
+                        color: Colors.black)),
+                subtitle: Text('naomi@gilbertadventures.com',
+                    style: GoogleFonts.montserrat(
+                        fontSize: 13,
+                        fontWeight: FontWeight.w300,
+                        color: Colors.grey[700])),
+                trailing: Icon(
+                  Icons.arrow_forward,
+                  size: 17,
+                  color: Colors.grey,
+                ),
+              ),
             ],
           ),
         ),
