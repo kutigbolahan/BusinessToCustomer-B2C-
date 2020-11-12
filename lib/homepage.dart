@@ -48,6 +48,24 @@ class HomePage extends StatelessWidget {
                     color: Colors.grey,
                   )),
               ListTile(
+                leading:Stack(
+                  children: [
+                    Positioned(child: FlutterLogo()),
+                    Positioned(
+                      top: 15,
+                      left: 15,
+                      child: Container(
+                        height: 10,
+                        width: 10,
+                        decoration: BoxDecoration(
+                          color:Colors.green,
+                          borderRadius:BorderRadius.all(
+                            Radius.circular(20)
+                          )
+                        ),
+                      ))
+                  ],
+                ),
                 title: Text('Naomi Gilbert(You)',
                     style: GoogleFonts.montserrat(
                         fontSize: 15,
