@@ -50,10 +50,12 @@ class HomePage extends StatelessWidget {
               ListTile(
                 leading:Stack(
                   children: [
-                    Positioned(child: FlutterLogo()),
+                    Positioned(child: CircleAvatar(
+                     backgroundImage:  AssetImage('assets/images/1.jpg'),
+                    )),
                     Positioned(
-                      top: 15,
-                      left: 15,
+                      top: 30,
+                      left: 30,
                       child: Container(
                         height: 10,
                         width: 10,
