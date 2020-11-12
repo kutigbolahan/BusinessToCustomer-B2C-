@@ -24,14 +24,14 @@ class HomePage extends StatelessWidget {
                 ],
               ),
               SizedBox(
-                height: 20,
+                height: 30,
               ),
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Text('Staff',
                       style: GoogleFonts.montserrat(
-                          fontSize: 20, fontWeight: FontWeight.w500)),
+                          fontSize: 30, fontWeight: FontWeight.w500)),
                   Icon(
                     Icons.search,
                     size: 17,
@@ -39,7 +39,7 @@ class HomePage extends StatelessWidget {
                 ],
               ),
               SizedBox(
-                height: 20,
+                height: 30,
               ),
               Text('MANAGER',
                   style: GoogleFonts.montserrat(
@@ -48,24 +48,23 @@ class HomePage extends StatelessWidget {
                     color: Colors.grey,
                   )),
               ListTile(
-                leading:Stack(
+                leading: Stack(
                   children: [
-                    Positioned(child: CircleAvatar(
-                     backgroundImage:  AssetImage('assets/images/1.jpg'),
+                    Positioned(
+                        child: CircleAvatar(
+                      backgroundImage: AssetImage('assets/images/1.jpg'),
                     )),
                     Positioned(
-                      top: 30,
-                      left: 30,
-                      child: Container(
-                        height: 10,
-                        width: 10,
-                        decoration: BoxDecoration(
-                          color:Colors.green,
-                          borderRadius:BorderRadius.all(
-                            Radius.circular(20)
-                          )
-                        ),
-                      ))
+                        top: 30,
+                        left: 30,
+                        child: Container(
+                          height: 10,
+                          width: 10,
+                          decoration: BoxDecoration(
+                              color: Colors.green,
+                              borderRadius:
+                                  BorderRadius.all(Radius.circular(20))),
+                        ))
                   ],
                 ),
                 title: Text('Naomi Gilbert(You)',
@@ -91,12 +90,31 @@ class HomePage extends StatelessWidget {
                     color: Colors.grey,
                   )),
               ListTile(
-                title: Text('Naomi Gilbert(You)',
+                leading: Stack(
+                  children: [
+                    Positioned(
+                        child: CircleAvatar(
+                      backgroundImage: AssetImage('assets/images/2.jpg'),
+                    )),
+                    Positioned(
+                        top: 30,
+                        left: 30,
+                        child: Container(
+                          height: 10,
+                          width: 10,
+                          decoration: BoxDecoration(
+                              color: Colors.green,
+                              borderRadius:
+                                  BorderRadius.all(Radius.circular(20))),
+                        ))
+                  ],
+                ),
+                title: Text('Anabel Nicholson',
                     style: GoogleFonts.montserrat(
                         fontSize: 15,
                         fontWeight: FontWeight.w400,
                         color: Colors.black)),
-                subtitle: Text('naomi@gilbertadventures.com',
+                subtitle: Text('anabel@gilbertadventures.com',
                     style: GoogleFonts.montserrat(
                         fontSize: 13,
                         fontWeight: FontWeight.w300,
@@ -108,12 +126,31 @@ class HomePage extends StatelessWidget {
                 ),
               ),
               ListTile(
-                title: Text('Naomi Gilbert(You)',
+                leading: Stack(
+                  children: [
+                    Positioned(
+                        child: CircleAvatar(
+                      backgroundImage: AssetImage('assets/images/3.jpg'),
+                    )),
+                    Positioned(
+                        top: 30,
+                        left: 30,
+                        child: Container(
+                          height: 10,
+                          width: 10,
+                          decoration: BoxDecoration(
+                              color: Colors.grey,
+                              borderRadius:
+                                  BorderRadius.all(Radius.circular(20))),
+                        ))
+                  ],
+                ),
+                title: Text('Alex Macauley',
                     style: GoogleFonts.montserrat(
                         fontSize: 15,
                         fontWeight: FontWeight.w400,
                         color: Colors.black)),
-                subtitle: Text('naomi@gilbertadventures.com',
+                subtitle: Text('alex1993@gilbertadventures.com',
                     style: GoogleFonts.montserrat(
                         fontSize: 13,
                         fontWeight: FontWeight.w300,
@@ -125,12 +162,31 @@ class HomePage extends StatelessWidget {
                 ),
               ),
               ListTile(
-                title: Text('Naomi Gilbert(You)',
+                leading: Stack(
+                  children: [
+                    Positioned(
+                        child: CircleAvatar(
+                      backgroundImage: AssetImage('assets/images/4.jpg'),
+                    )),
+                    Positioned(
+                        top: 30,
+                        left: 30,
+                        child: Container(
+                          height: 10,
+                          width: 10,
+                          decoration: BoxDecoration(
+                              color: Colors.red,
+                              borderRadius:
+                                  BorderRadius.all(Radius.circular(20))),
+                        ))
+                  ],
+                ),
+                title: Text('Oprah Morillo',
                     style: GoogleFonts.montserrat(
                         fontSize: 15,
                         fontWeight: FontWeight.w400,
                         color: Colors.black)),
-                subtitle: Text('naomi@gilbertadventures.com',
+                subtitle: Text('morillo@gilbertadventures.com',
                     style: GoogleFonts.montserrat(
                         fontSize: 13,
                         fontWeight: FontWeight.w300,
@@ -142,12 +198,31 @@ class HomePage extends StatelessWidget {
                 ),
               ),
               ListTile(
-                title: Text('Naomi Gilbert(You)',
+                leading: Stack(
+                  children: [
+                    Positioned(
+                        child: CircleAvatar(
+                      backgroundImage: AssetImage('assets/images/5.jpg'),
+                    )),
+                    Positioned(
+                        top: 30,
+                        left: 30,
+                        child: Container(
+                          height: 10,
+                          width: 10,
+                          decoration: BoxDecoration(
+                              color: Colors.green,
+                              borderRadius:
+                                  BorderRadius.all(Radius.circular(20))),
+                        ))
+                  ],
+                ),
+                title: Text('Omoshola Williams',
                     style: GoogleFonts.montserrat(
                         fontSize: 15,
                         fontWeight: FontWeight.w400,
                         color: Colors.black)),
-                subtitle: Text('naomi@gilbertadventures.com',
+                subtitle: Text('williams@gilbertadventures.com',
                     style: GoogleFonts.montserrat(
                         fontSize: 13,
                         fontWeight: FontWeight.w300,
@@ -159,12 +234,31 @@ class HomePage extends StatelessWidget {
                 ),
               ),
               ListTile(
-                title: Text('Naomi Gilbert(You)',
+                leading: Stack(
+                  children: [
+                    Positioned(
+                        child: CircleAvatar(
+                      backgroundImage: AssetImage('assets/images/6.jpg'),
+                    )),
+                    Positioned(
+                        top: 30,
+                        left: 30,
+                        child: Container(
+                          height: 10,
+                          width: 10,
+                          decoration: BoxDecoration(
+                              color: Colors.red,
+                              borderRadius:
+                                  BorderRadius.all(Radius.circular(20))),
+                        ))
+                  ],
+                ),
+                title: Text('Christopher Cardenas',
                     style: GoogleFonts.montserrat(
                         fontSize: 15,
                         fontWeight: FontWeight.w400,
                         color: Colors.black)),
-                subtitle: Text('naomi@gilbertadventures.com',
+                subtitle: Text('cardenas@gilbertadventures.com',
                     style: GoogleFonts.montserrat(
                         fontSize: 13,
                         fontWeight: FontWeight.w300,
